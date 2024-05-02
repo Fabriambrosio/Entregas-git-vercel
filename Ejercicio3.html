@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <button>
+        <a href="./index.html">Volver a pagina de inicio</a>
+      </button>
+      <h1>Formularios de Registro</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required />
+        </div>
+        <br />
+        <div>
+          <label for="name">Apellido:</label>
+          <input type="text" id="name" required />
+        </div>
+        <br />
+        <div>
+          <label>Modalidad de cursada:</label>
+          <input type="radio" name="Modalidad" value="On-demand" required />
+          <label for="On-demand"> On-demand</label>
+          <input type="radio" name="Modalidad" value="En vivo" required />
+          <label for="En vivo"> En vivo</label>
+        </div>
+
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" id="informacion" required />
+          <label for="text"
+            >Deseo recibir informacion sobre nuevos posteos en la plataforma de
+            Nucba</label
+          >
+        </div>
+        <div>
+          <input type="checkbox" id="terminos" required />
+          <label for="text"
+            >Declaro que lei los terminos y condiciones y estoy listo para
+            convertirme en desarrollador web Full Stack</label
+          >
+        </div>
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
